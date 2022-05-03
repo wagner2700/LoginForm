@@ -138,6 +138,10 @@ body{
   margin-top: 40px;
 }
 
+.login input{
+  color: #AFB6C2;
+}
+
 @media (min-width : 720px){
 
   
@@ -238,4 +242,21 @@ body{
   width: 100vw;
   height: 100vh;
 }
+
+.login input{
+  color: #AFB6C2;
 }
+
+
+input:hover {
+  border: solid 1px #FFC632;
+}
+
+input:focus-within{
+  border: solid 3px #FFC632 ;
+
+} 
+
+
+}
+
