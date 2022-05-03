@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   
+  
 }
 
 
@@ -139,10 +140,11 @@ body{
 
 @media (min-width : 720px){
 
-  .logo{
+  
+  /* .logo{
     margin: 42px 70px;
     
-  }
+  } */
   .wrapperDesktop{
     width: 100vw;
     height: 100vh;
@@ -219,8 +221,7 @@ body{
 
 .photoCar {
   display: flex;
-  width: 900px;
-  height: 100vh;
+  width: 55vw;
   justify-content: flex-end;
 }
 
@@ -231,4 +232,10 @@ header{
   display: none;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
 }
