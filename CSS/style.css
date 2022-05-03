@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+body{
+  background: #191816;
+}
+
+.textlogin img{
+  width: 24px;
+  height: 24px;
+}
+
+.textlogin{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #D4CCB6;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: poppins;
+  height: 40px;
+  gap: 10px;
+ 
+}
+
+.infoCadastro{
+ 
+  width: 100%;
+
+}
+
+.wrapper{
+  width: 100vw;
+  color: #AFB6C2;
+  margin-right: 220px;
+  margin-left:20px;
+}
+
+.login .mail{
+  color: #AFB6C2;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+.infoCadastro p{
+  margin: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #AFB6C2
+
+}
+.login input{
+  width: 330px;
+  height: 40px;
+  background-color: #191816;
+  border-radius: 4px;
+  border: solid #868686 1px
+}
+
+.login .password{
+  color: #AFB6C2;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.remember {
+  color: #AFB6C2;
+  display: flex;
+ 
+  margin: 20px 20px 20px 30px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  
+  
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.button input{
+  display: flex;
+  justify-content: center;
+  width: 330px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #FFC632;
+  padding: 12px 24px;
+  font-family: 'Poppins';
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+
+.subRecovery{
+  width: 100%;
+}
+
+.recovery {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.recovery a{
+  text-decoration: none;
+  color:#FFC632;
+}
+
+.forget{
+  margin: 15px;
+  color: #AFB6C2;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.forget a , p{
+  color:#FFC632;
+  text-decoration: none;
+}
+
+.photoCar{
+  display: none;
+}
+
+.wrapperDesktop{
+  margin-top: 40px;
+}
+
+@media (min-width : 720px){
+
+  .logo{
+    margin: 42px 70px;
+    
+  }
+  .wrapperDesktop{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: space-between;
+    background-image: url(./images/logo.svg);
+    background-repeat: no-repeat;
+   background-position-y: 20px;
+   background-position-x: 50px;
+  }
+  
+  
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    background-color: #24221F;
+    width: 572px;
+    height: 540px;
+    border-radius: 4px;
+    margin-left: 90px;
+    
+  }
+
+ .textlogin{
+   margin-top: 55px;
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 100px;
+ }
+
+
+.infoCadastro{
+  margin-left: 82px;
+}
+
+.mail label{
+  width: 62%;
+  margin: 3px;
+  display: flex;
+  justify-content: flex-start;
+  font-family:'Poppins' ;
+  font-weight: 600;
+}
+
+.password label{
+  width: 58%;
+  margin: 3px;
+  display: flex;
+  justify-content: flex-start;
+  font-family:'Poppins' ;
+  font-weight: 600
+}
+
+.subRecovery{
+  
+  margin-left: 90px;
+  margin-top: 3px;
+}
+
+.recovery{
+  margin-right:100px ;
+  margin-top:3px ;
+  height: 10px;
+}
+
+.button{
+  height: 52px;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.photoCar {
+  display: flex;
+  width: 900px;
+  height: 100vh;
+  justify-content: flex-end;
+}
+
+.photoCar img{
+  width: 100%;
+}
+header{
+  display: none;
+}
+
+}
